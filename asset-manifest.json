@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/lastKasuka/static/css/main.3cb4ac7c.css",
-    "main.js": "/lastKasuka/static/js/main.d121d045.js",
+    "main.css": "/lastKasuka/static/css/main.0abb693f.css",
+    "main.js": "/lastKasuka/static/js/main.50fdb20a.js",
     "static/js/453.ae270511.chunk.js": "/lastKasuka/static/js/453.ae270511.chunk.js",
-    "static/media/IMG_20230126_165834.jpg": "/lastKasuka/static/media/IMG_20230126_165834.d664289315472f2b0868.jpg",
     "static/media/cta-bg.jpg": "/lastKasuka/static/media/cta-bg.63b483a22e14db81b62a.jpg",
     "static/media/IRANSans.ttf": "/lastKasuka/static/media/IRANSans.623768ac2bdc3c1f78df.ttf",
     "static/media/IRANSans_UltraLight.ttf": "/lastKasuka/static/media/IRANSans_UltraLight.eef56d0d917b1348b189.ttf",
@@ -13,12 +12,12 @@
     "static/media/IRANSans_Medium.ttf": "/lastKasuka/static/media/IRANSans_Medium.c03af4462819dc9cffc3.ttf",
     "static/media/bussein.jpg": "/lastKasuka/static/media/bussein.5b6b7e902b6bec14cf8b.jpg",
     "index.html": "/lastKasuka/index.html",
-    "main.3cb4ac7c.css.map": "/lastKasuka/static/css/main.3cb4ac7c.css.map",
-    "main.d121d045.js.map": "/lastKasuka/static/js/main.d121d045.js.map",
+    "main.0abb693f.css.map": "/lastKasuka/static/css/main.0abb693f.css.map",
+    "main.50fdb20a.js.map": "/lastKasuka/static/js/main.50fdb20a.js.map",
     "453.ae270511.chunk.js.map": "/lastKasuka/static/js/453.ae270511.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cb4ac7c.css",
-    "static/js/main.d121d045.js"
+    "static/css/main.0abb693f.css",
+    "static/js/main.50fdb20a.js"
   ]
 }
