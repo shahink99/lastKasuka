@@ -1,0 +1,34 @@
+
+:root {
+  --text-color: #333333;
+  --shadowColor: rgba(19, 182, 255, 24%);
+  --app-bg: #fff;
+  --section-bg-color: #fff;
+  --primaryColor: #FFC451;
+}
+
+
+
+.icon{
+    color: var(--primaryColor);
+    font-size: 2.5rem;
+}
+
+
+input , textarea{
+  width: 100%;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family:'IRANSans-bold';
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--app-bg);
+  /* padding-top: 12rem; */
+  transition: all 300ms ease-in-out;
+}

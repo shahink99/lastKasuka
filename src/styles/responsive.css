@@ -1,0 +1,316 @@
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1350px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .Header-items__logo-wrapper {
+    display: none;
+  }
+  .hamberger-menu {
+    display: flex;
+  }
+
+  .Header-items__links {
+    display: none;
+  }
+
+  .Header-items__links--active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #100108e6;
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  .Header-items__links-wapper--active {
+    position: absolute;
+    top: 7rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* top: 21rem; */
+    /* display: none; */
+  }
+
+  /* .Header-items__links{
+    display: none;
+  } */
+}
+
+@media screen and (min-width: 992px) {
+  /* .Header-items__links-wapper {
+     position: absolute; 
+     top: 7rem; 
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  } */
+
+  .Header-items__links-wapper--active {
+    display: flex;
+    /* position: absolute;  */
+    /* top: 7rem;  */
+    /* display: flex; */
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .Header-items__links{
+    display: none;
+  } */
+
+  .Header-items__links--active {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row; */
+    color: white;
+  }
+  .hamberger-line--open {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .iconi {
+    font-size: 4rem;
+  }
+  .titlee {
+    font-size: 4.5rem;
+  }
+  .services-title {
+    font-size: 2rem;
+  }
+  .nav-link {
+    font-size: 2rem;
+  }
+  .sectionHader-title {
+    font-size: 3.5rem;
+  }
+  .title-kasuka {
+    font-size: 3.5rem;
+  }
+  .main-des {
+    font-size: 3rem;
+  }
+  .box {
+    width: 15rem;
+    height: 15rem;
+  }
+  .box-title {
+    font-size: 1.7rem;
+  }
+  .sectionHader-title {
+    font-size: 2.4rem;
+  }
+  .title-section {
+    font-size: 2rem;
+  }
+  .captionn {
+    font-size: 1.2rem;
+  }
+  .nav-link {
+    font-size: 1.3rem;
+  }
+  .title-adnave {
+    font-size: 2rem;
+  }
+  .caption-advance {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Header-items__rejester {
+    padding: 0;
+    width: 12rem;
+  }
+  .hamberger-line,
+  .hamberger-line::after,
+  .hamberger-line::before {
+    width: 3.5rem;
+    height: 0.3rem;
+  }
+  .Header-items__singIn {
+    font-size: 1.3rem;
+    padding: 0;
+  }
+  .titleee {
+    font-size: 2.5rem !important;
+  }
+  .descreption-tilte {
+    font-size: 1.5rem;
+  }
+  .descrption-li {
+    padding: 0 1rem;
+  }
+  .pDescreaption {
+    text-align: right;
+    font-weight: none;
+    margin-top: 0;
+  }
+  .iconi {
+    font-size: 3rem;
+  }
+  .card-descraption {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+  }
+  .sectionHader-title {
+    font-size: 2rem;
+  }
+  .service-card-wrapper {
+    padding: 2rem 1rem;
+  }
+  .icon-wrapperr {
+    padding: 0;
+  }
+  .services-title {
+    font-size: 1.5rem;
+  }
+  .services-p {
+    font-size: 1rem;
+  }
+  .title-section {
+    font-size: 2rem;
+  }
+  .captionn {
+    font-size: 1rem;
+    line-height: 2;
+    padding: 1rem 2rem;
+  }
+  .action-buttonn {
+    padding: 0.4rem 1.2rem;
+  }
+  .nav-item {
+    padding: 1rem 1.5rem;
+  }
+  .title-adnave {
+    font-size: 2rem;
+  }
+
+  .portfolio-card {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+  }
+
+  .portfolio-img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .margin-bottom {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .caption-advance,
+  .number-advance,
+  .user-name {
+    font-size: 2rem;
+  }
+  .profile-image {
+    width: 8rem;
+    height: 8rem;
+  }
+  .user-role {
+    font-size: 1.5rem;
+  }
+  .user-caption {
+    font-size: 1.5rem;
+  }
+
+  .titlee {
+    font-size: 3.5rem;
+  }
+  .title-kasuka {
+    font-size: 2.7rem;
+  }
+  .main-des {
+    font-size: 2.2rem !important;
+  }
+  .box-title {
+    font-size: 1.5rem;
+  }
+  .category-header {
+    gap: 0;
+    margin-bottom: 4rem;
+  }
+  .caption-advance {
+    font-size: 1.5rem;
+  }
+  .number-advance {
+    font-size: 1.7rem;
+  }
+  .team-member-name {
+    font-size: 1.5rem;
+  }
+  .team-member-role {
+    font-size: 1rem;
+  }
+  .info-title,
+  .info-caption {
+    font-size: 1.2rem;
+  }
+  .info-icon {
+    font-size: 1.2rem;
+  }
+  .btnnn-submit {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+  .footer-title {
+    font-size: 1.5rem;
+  }
+  .pFooter {
+    font-size: 1.2rem;
+  }
+  .btnFooter {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+  .btn-footer {
+    padding: 0.3em 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+  .Header-items__rejester{
+    border: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+}
+
+@media screen and (max-width: 410px) {
+}
+
+@media screen and (max-width: 322px) {
+}
+
+@media screen and (max-width: 305px) {
+}

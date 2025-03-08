@@ -1,0 +1,29 @@
+.sectioHader{
+    width: 100%;
+    padding: 2rem 2rem;
+    /* background-color: aquamarine; */
+    margin-bottom: 4rem;
+}
+.sectionHader-title{
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.few-title-wrapper{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.few-title-line{
+    background-color: #FFC451;
+    width: 10rem;
+    height: 0.2rem;
+    margin-right: 1rem;
+}
+
+.few-title-text{
+color: #ABABAB;
+font-size: 1.5rem;
+}

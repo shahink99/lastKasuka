@@ -1,0 +1,100 @@
+/* ContactUsComponent.css */
+.contact-us-component {
+  padding: 2rem; /* فضای داخلی */
+}
+
+.form-title {
+  margin-bottom: 2rem; /* فاصله زیر عنوان فرم */
+}
+
+.info-title {
+  margin-bottom: 1rem; /* فاصله زیر عنوان اطلاعات تماس */
+}
+
+.info-card {
+  padding: 1rem; /* فضای داخلی کارت */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* سایه برای کارت */
+}
+
+.info-item {
+  display: flex; /* چیدمان افقی آیکون و متن */
+  align-items: center; /* وسط‌چین عمودی */
+  margin-bottom: 1rem; /* فاصله بین آیتم‌ها */
+}
+
+.info-icon {
+  font-size: 1.5rem; /* اندازه آیکون */
+  color: black; /* رنگ آیکون */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-title {
+  font-size: 1.5rem; /* اندازه عنوان */
+  margin: 0; /* حذف فاصله */
+}
+
+.info-caption {
+  font-size: 1.3rem; /* اندازه کپشن */
+  color: #555; /* رنگ کپشن */
+  margin-right: 1rem;
+}
+
+.icon-sakhleyan {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--primaryColor);
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  border-radius: 0.4rem;
+  justify-content: center;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+.inp {
+  /* width: 40%; */
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0.01rem 0.01rem 0.05rem 0.09rem #999;
+  border: none;
+}
+.w80 {
+  width: 85%;
+}
+
+.textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+   margin: 0.5rem 0;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  resize: none;
+  height: 20rem;
+  box-shadow: 0.01rem 0.01rem 0.05rem 0.09rem #999;
+  border: none;
+}
+
+.btnnn-submit {
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  padding: 1rem 3rem;
+  margin-top: 5rem;
+  border: none;
+  background-color: var(--primaryColor);
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  cursor: pointer;
+}

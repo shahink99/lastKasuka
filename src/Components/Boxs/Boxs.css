@@ -1,0 +1,31 @@
+.boxes {
+  display: flex;
+   /* فاصله بین باکس‌ها */
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1 1;
+  text-align: center;
+  /* border: 1px solid white; */
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2rem;
+      box-shadow: 0.1rem 0.1rem 0.3rem darksalmon;
+}
+
+.box-title{
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+#Database{
+  fill:#ffc451 ;
+}

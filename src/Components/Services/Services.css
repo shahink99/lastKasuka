@@ -1,0 +1,26 @@
+/* Services.css */
+.services {
+    padding: 2rem; /* فضای داخلی */
+}
+
+.title {
+    text-align: right; /* تراز عنوان به سمت راست */
+    margin-bottom: 2rem; /* فاصله زیر عنوان */
+    font-size: 2.5rem;
+}
+
+.service-card {
+    margin-bottom: 1.5rem; /* فاصله بین کارت‌ها */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* سایه برای کارت‌ها */
+    transition: transform 0.2s; /* انیمیشن برای افکت hover */
+}
+
+.service-card:hover {
+    transform: scale(1.05); /* بزرگ شدن کارت هنگام hover */
+}
+
+.icon {
+    font-size: 3rem; /* اندازه آیکون */
+    color: #007bff; /* رنگ آیکون */
+    margin-bottom: 1rem; /* فاصله زیر آیکون */
+}

@@ -1,0 +1,51 @@
+/* CombinedComponent.css */
+.combined-component {
+    display: flex;
+    height: auto; /* ارتفاع کامپوننت به اندازه ارتفاع کل صفحه */
+    margin-bottom: 5rem;
+}
+
+.introduction, .features {
+    display: flex;
+}
+
+.h100{
+    height: 100%;
+}
+
+.left-section {
+    flex: 1; /* سمت چپ به اندازه نصف صفحه */
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.intro-image {
+    width: 100%; /* تصویر تمام عرض را پوشش می‌دهد */
+    height: 100%; /* تصویر تمام ارتفاع را پوشش می‌دهد */
+    object-fit: cover; /* حفظ نسبت تصویر */
+}
+
+.right-section {
+    flex: 1; /* سمت راست به اندازه نصف صفحه */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* وسط‌چین عمودی */
+    padding: 2rem; /* فضای داخلی */
+}
+
+.left-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+/* .f-d-col{
+    flex-direction: column-reverse;
+} */
+
+
+.combindIcon{
+    font-size: 20rem;
+    background-color: aquamarine;
+}

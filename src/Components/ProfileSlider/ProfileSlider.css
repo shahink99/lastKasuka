@@ -1,0 +1,50 @@
+/* ProfileSlider.css */
+.profile-slider {
+    height: 40rem; /* ارتفاع کامپوننت */
+    width: 100%; /* عرض فول */
+    background-image: url('../../../public/image/cta-bg.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.slide {
+    height: 100%; /* ارتفاع هر اسلاید */
+    background-size: cover; /* پوشش کامل پس‌زمینه */
+    background-position: center; /* مرکز پس‌زمینه */
+    position: relative; /* برای overlay */
+}
+
+.overlay {
+    height: 100%; /* ارتفاع overlay */
+    width: 100%; /* عرض overlay */
+    background-color: rgba(0, 0, 0, 0.5); /* رنگ تیره با اپاسیتی */
+    display: flex; /* وسط‌چین کردن محتوا */
+    flex-direction: column; /* چیدمان عمودی */
+    justify-content: center; /* وسط‌چین عمودی */
+    align-items: center; /* وسط‌چین افقی */
+    color: white; /* رنگ متن */
+    text-align: center; /* تراز متن به وسط */
+}
+
+.profile-image {
+    width: 10rem; /* اندازه تصویر پروفایل */
+    height: 10rem; /* اندازه تصویر پروفایل */
+    border-radius: 50%; /* گرد کردن تصویر */
+    margin-bottom: 1rem; /* فاصله زیر تصویر پروفایل */
+    border: 1rem solid gray;
+}
+
+.user-name {
+    font-size: 2rem; /* اندازه نام کاربر */
+    margin: 0.5rem 0; /* فاصله بین نام و نقش */
+}
+
+.user-role {
+    font-size: 1.7rem; /* اندازه نقش کاربر */
+    margin: 0.5rem 0; /* فاصله بین نقش و کپشن */
+}
+
+.user-caption {
+    font-size: 1.4rem; /* اندازه کپشن */
+    max-width: 80%; /* عرض حداکثر کپشن */
+}

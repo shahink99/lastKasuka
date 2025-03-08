@@ -1,0 +1,145 @@
+.Header {
+  padding: 1.5rem 2rem;
+  background-color:unset;
+  box-shadow: 0 0 1rem;
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  position: relative;
+}
+
+.Header-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+.Header-items__links-wapper {
+  /* width: 75%; */
+  transition: all 200ms step-end;
+}
+
+.Header-items__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* display: none; */
+}
+
+.Header-items__link {
+  margin: 0 0.4rem;
+  font-family: sans-serif;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: all 200ms ease;
+  color: white;
+  font-size: 2rem;
+}
+
+.Header-items__link:hover {
+  background:white;
+  border-radius: 2rem;
+  color: black;
+}
+
+.Header-items__logo-wrapper {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+}
+
+.Header-items__logo {
+  width: inherit;
+  height: inherit;
+  border-radius: 40%;
+}
+
+.Header-items__rejester {
+  /* background: yellowgreen; */
+  padding: 0.4rem 1rem;
+  /* border-radius: 1rem; */
+  border-radius: 0.1rem;
+  /* box-shadow: 0 0.1rem 0.4rem; */
+  cursor: pointer;
+  margin-left: 0;
+  border: 0.1rem solid orange;
+  width: 20rem;
+}
+
+.Header-items__singIn {
+  font-family: sans-serif;
+  /* background: yellowgreen; */
+  padding: 0.9rem 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* Hamberger Menu */
+
+.hamberger-menu {
+  margin-right: 0;
+  width: 5rem;
+  height: 5rem;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.hamberger-line{
+  width: 5rem;
+  height: 0.5rem;
+  background-color: orange;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.hamberger-line,
+.hamberger-line::before,
+.hamberger-line::after {
+  content: "";
+  position: absolute;
+  width: 4.5rem;
+  height: 0.4rem;
+  background-color: var(--primaryColor);
+  border-radius: 2rem;
+  transition: all 150ms ease-in;
+
+}
+
+.hamberger-line::before {
+  top: -1rem;
+}
+
+.hamberger-line::after {
+  top: 1rem;
+}
+
+.hamberger-line--open {
+  display: flex;
+  cursor: pointer;
+}
+
+.hamberger-line--open .hamberger-line {
+  background-color: transparent;
+}
+
+.hamberger-line--open .hamberger-line::before {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamberger-line--open .hamberger-line::after {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+ 

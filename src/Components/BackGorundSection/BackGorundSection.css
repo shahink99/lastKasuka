@@ -1,0 +1,50 @@
+/* BackgroundSection.css */
+.background-section {
+    height: 30rem; /* ارتفاع کامپوننت */
+    background-image: url('../../../public/image/cta-bg.jpg'); /* مسیر تصویر پس‌زمینه */
+    background-size: cover; /* تصویر تمام عرض را پوشش می‌دهد */
+    background-position: center; /* مرکز تصویر */
+    position: relative; /* برای overlay */
+    display: flex; /* وسط‌چین کردن محتوا */
+    justify-content: center; /* وسط‌چین افقی */
+    align-items: center; /* وسط‌چین عمودی */
+}
+
+.overlay {
+    height: 100%; /* ارتفاع overlay */
+    width: 100%; /* عرض overlay */
+    background-color: rgba(0, 0, 0, 0.5); /* رنگ تیره با اپاسیتی */
+    display: flex; /* وسط‌چین کردن متن */
+    flex-direction: column; /* چیدمان عمودی */
+    justify-content: center; /* وسط‌چین عمودی */
+    align-items: center; /* وسط‌چین افقی */
+    color: white; /* رنگ متن */
+    text-align: center; /* تراز متن به وسط */
+}
+
+.title-section {
+    font-size: 3rem; /* اندازه عنوان */
+    margin: 0 0 1rem; /* فاصله زیر عنوان */
+}
+
+.captionn {
+    font-size: 1.5rem; /* اندازه کپشن */
+    margin: 0 0 2rem; /* فاصله زیر کپشن */
+    color: white;
+    max-width: 100rem;
+}
+
+.action-buttonn {
+    color: white; /* رنگ متن دکمه */
+    border: 0.2rem solid white; /* بدون لبه */
+    border-radius: 2px; /* گرد کردن لبه‌های دکمه */
+    padding: 1rem 1.5rem; /* فضای داخلی دکمه */
+    font-size: 1.4rem; /* اندازه متن دکمه */
+    cursor: pointer; /* نشانگر ماوس */
+    background-color: unset;
+
+}
+
+.action-button:hover {
+    background-color: #0056b3; /* رنگ دکمه هنگام hover */
+}

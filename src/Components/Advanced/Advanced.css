@@ -1,0 +1,74 @@
+/* TwoColumnComponent.css */
+.two-column-component {
+    padding: 2rem; /* فضای داخلی */
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* وسط‌چین عمودی */
+}
+
+.title-adnave {
+    font-size: 2.5rem; /* اندازه عنوان */
+    margin-bottom: 1rem; /* فاصله زیر عنوان */
+    margin-top: 0;
+}
+
+.caption-advance {
+    font-size: 1.5rem; /* اندازه کپشن */
+    margin-bottom: 2rem; /* فاصله زیر کپشن */
+    margin-top: 0;
+}
+
+.icon-number {
+    display: flex; /* چیدمان افقی آیکون و عدد */
+    align-items: center; /* وسط‌چین عمودی */
+    margin-bottom: 1rem; /* فاصله بین آیکون‌ها */
+}
+
+.icon-advance {
+    font-size: 4rem; /* اندازه آیکون */
+    margin-right: 0.5rem; /* فاصله بین آیکون و عدد */
+    color: #007bff; /* رنگ آیکون */
+}
+
+.number-advance {
+    font-size: 1.6rem; /* اندازه عدد */
+    margin-right: 0.5rem; /* فاصله بین عدد و کپشن */
+    font-weight: bold;
+}
+
+.caption-new {
+    font-size: 1.3rem; /* اندازه کپشن */
+    color: #555; /* رنگ کپشن */
+}
+
+.description {
+    font-size: 1.2rem; /* اندازه متن توصیفی */
+    margin-top: 2rem; /* فاصله بالای متن توصیفی */
+}
+
+.right-section {
+    display: flex;
+    justify-content: center; /* وسط‌چین افقی */
+    align-items: center; /* وسط‌چین عمودی */
+}
+
+.image {
+    width: 100%; /* تصویر تمام عرض را پوشش می‌دهد */
+    height: auto; /* حفظ نسبت تصویر */
+
+}
+
+.advance-card-item{
+    display: flex;
+}
+
+
+.advance-item-text{
+    display: flex
+;
+    flex-direction: column;
+    margin-right: 2rem;
+}

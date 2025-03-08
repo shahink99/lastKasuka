@@ -1,0 +1,30 @@
+.feature-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+}
+
+
+.icon{
+    color: #FFC451;
+    font-size: 1.5rem;
+}
+.text-wrapper {
+  margin-right: 2rem;
+}
+
+.card-title{
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #444444;
+    margin-top: 1.3rem;
+
+}
+
+.card-descraption{
+    margin-top: 0;
+    color: #848484;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,70 @@
+/* FooterComponent.css */
+.footer {
+  background-color: black; /* پس‌زمینه سیاه */
+  color: white; /* رنگ متن سفید */
+  padding: 2rem 0; /* فضای داخلی */
+  position: relative; /* برای طول ۱۰۰ درصد */
+  width: 100%; /* عرض فول */
+}
+
+.footer-column {
+  margin-bottom: 2rem; /* فاصله بین ستون‌ها */
+}
+
+.footer-logo {
+  font-size: 1.5rem; /* اندازه لوگو */
+  margin-bottom: 1rem; /* فاصله زیر لوگو */
+}
+
+.footer-title {
+  font-size: 2rem; /* اندازه عنوان */
+  margin-bottom: 1rem; /* فاصله زیر عنوان */
+}
+
+.social-icons {
+  display: flex; /* چیدمان افقی آیکون‌ها */
+  margin-top: 1rem; /* فاصله بالای آیکون‌ها */
+}
+
+.social-icon {
+  font-size: 2rem; /* اندازه آیکون */
+  margin-right: 1rem; /* فاصله بین آیکون‌ها */
+  color: white; /* رنگ آیکون */
+}
+
+ul {
+  list-style-type: none; /* حذف علامت‌های لیست */
+  padding: 0; /* حذف فضای داخلی */
+}
+
+li {
+  margin-bottom: 0.5rem; /* فاصله بین آیتم‌های لیست */
+  color: #ccc; /* رنگ متن لیست */
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn-footer {
+  padding: 0.7rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+
+.btnFooter {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+
+.pFooter {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.footer-right-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

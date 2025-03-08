@@ -1,0 +1,92 @@
+/* Introduction.css */
+.introduction {
+  display: flex;
+  height: auto; /* ارتفاع کامپوننت به اندازه ارتفاع کل صفحه */
+  margin-bottom: 5rem;
+}
+
+.left-section {
+  flex: 1; /* سمت چپ به اندازه نصف صفحه */
+  position: relative;
+  height: 100%;
+}
+
+.intro-image {
+  width: 100%; /* تصویر تمام عرض را پوشش می‌دهد */
+  height: 100%; /* تصویر تمام ارتفاع را پوشش می‌دهد */
+  object-fit: cover; /* حفظ نسبت تصویر */
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start !important;
+  /* padding: 0rem 2rem; */
+}
+
+.titleee {
+  font-size: 2.5rem !important;
+  margin: 0;
+  color: black;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.descreption-tilte {
+  line-height: 3.1rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+
+.descreption-ul {
+  margin-bottom: 3rem;
+}
+
+.pDescreaption {
+  font-size: 1.2rem;
+  color: black;
+  margin-right: 1rem;
+  text-align: right;
+  font-weight: bold;
+  display: flex;
+  margin-top: 0;
+}
+
+.descrption-li {
+  display: flex;
+  padding: 0rem 2rem;
+  align-items: flex-start;
+  font-size: 3rem;
+  justify-content: right;
+  position: relative;
+}
+
+.spanDesc {
+  margin-left: 1rem;
+  color: #ffc451;
+
+  position: absolute;
+  right: 0;
+}
+
+.pLast {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+
+.custom-anchor{
+      color: white;
+    background: darkgoldenrod;
+    padding: 0.1rem 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}

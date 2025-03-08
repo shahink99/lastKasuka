@@ -1,0 +1,49 @@
+/* TeamComponent.css */
+.team-component {
+    padding: 2rem; /* فضای داخلی */
+    text-align: center; /* تراز متن به وسط */
+}
+
+.title {
+    font-size: 2.5rem; /* اندازه عنوان */
+    margin-bottom: 1rem; /* فاصله زیر عنوان */
+}
+
+.subtitle {
+    font-size: 1.2rem; /* اندازه متن زیر عنوان */
+    margin-bottom: 2rem; /* فاصله زیر متن */
+}
+
+.team-card {
+    margin-bottom: 2rem; /* فاصله بین کارت‌ها */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* سایه برای کارت‌ها */
+    transition: transform 0.2s; /* انیمیشن برای افکت hover */
+    overflow: hidden;
+    border-radius: 2rem;
+    padding: 0 0 4rem 0 ;
+}
+
+.team-card:hover {
+    transform: scale(1.05); /* بزرگ شدن کارت هنگام hover */
+}
+
+.team-image {
+    height:100%; /* ارتفاع تصویر */
+    width: 100%;
+    object-fit: cover; /* پوشش تصویر */
+}
+
+.team-member-name {
+    font-size: 1.8rem; /* اندازه نام کاربر */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.team-member-role {
+    font-size: 1.4rem; /* اندازه نقش کاربر */
+    color: #777; /* رنگ نقش کاربر */
+}
+
+.team-card-body{
+    padding: 1rem 2rem;
+}
